@@ -48,11 +48,23 @@ To run the tests:
 
 ##### Tasks
 
-- Create a class called Team that has the properties properties Name (`str`), Players (list of `str`s) and a Coach (`str`).
-- Create an `__init__` method that takes in a name (`str`), a list of player names (as `str`s) and a coach(`str`) to initialise the properties when a new team is created.
-- Create a method `add_player` that takes in a string of a new players's name and adds that new player to the players list.
+- Create a class called Team that has the properties properties Name (`str`), Players (list of `str`s) and a Coach (`str`). √√
+
+- Create an `__init__` method that takes in a name (`str`), a list of player names (as `str`s) and a coach(`str`) to initialise the properties when a new team is created. √√√
+
+
+
+
+
+- Create a method `add_player` that takes in a string of a new players's name and adds that new player to the players list. √√√
+
+
+
 - Add a method `has_player` that takes in a string of a player's name and checks to see if they are in the players list. It should return `True` if the player's name is in the list and `False` otherwise.
+
+
 - Add a points property into your class that starts at 0.
+
 - Create a method, `play_game` that takes in whether the team has won(`True`) or lost(`False`) and adds 3 to the points property for a win.
 
 
